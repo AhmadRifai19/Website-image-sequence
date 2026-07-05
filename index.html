@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="iPhone 14 Pro — Temukan keunggulan Pro. Kamera 48MP, Dynamic Island, layar Always-On. Pilih warna dan kapasitas favorit Anda." />
+    <meta name="theme-color" content="#000000" />
+    <title>iPhone 14 Pro — Pro. Beyond.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- Garis progres saat scroll -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Navigasi -->
+    <nav id="navbar" aria-label="Navigasi utama">
+      <div class="nav-inner">
+        <div class="nav-logo">
+          <svg width="18" height="18" viewBox="0 0 814 1000" fill="currentColor" aria-hidden="true">
+            <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-37.5-154.9-105.6C115 672.6 65 614.7 65 510.4c0-110.7 72.6-168.5 141.4-168.5 65.5 0 106.5 44.6 161.9 44.6 53.5 0 103.5-43.3 163.9-43.3 65.9 0 130.3 47.1 174.3 125.5z"/>
+            <path d="M575.9 215.1c-26.1 29.8-69.2 53.8-113.2 53.8-5.8 0-11.7-.6-17.5-1.9-1.3-5.8-1.9-11.7-1.9-17.5 0-26.7 11.7-55.5 33.1-77.8 21.3-22.3 57.9-41.5 92.3-43.3 1.3 6.5 1.9 13 1.9 19.5 0 25.3-10.4 52.5-34.7 66.7z"/>
+          </svg>
+          <span>iPhone 14 Pro</span>
+        </div>
+        <div class="nav-links">
+          <a href="#features">Fitur</a>
+          <a href="#config">Harga</a>
+          <a href="#specs">Spesifikasi</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Area canvas untuk animasi scroll -->
+    <div class="scroll-container">
+      <div class="sticky-canvas-wrapper">
+        <canvas id="product-canvas" aria-label="Animasi produk iPhone 14 Pro"></canvas>
+        <div class="canvas-gradient-top" aria-hidden="true"></div>
+        <div class="canvas-gradient-bottom" aria-hidden="true"></div>
+      </div>
+
+      <div class="content-overlay" id="features">
+
+        <!-- Layar pertama (Hero) -->
+        <section class="section section-hero">
+          <div class="hero-content">
+            <div class="hero-eyebrow">Koleksi Pro Terbaru</div>
+            <h1>iPhone 14 Pro</h1>
+            <p class="hero-subtitle">Pro.&nbsp;&nbsp;Beyond.</p>
+            <div class="hero-scroll-hint" aria-hidden="true">
+              <span>Scroll untuk menjelajah</span>
+              <div class="scroll-arrow-line"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Jarak gulir -->
+        <section class="section section-spacer" aria-hidden="true"></section>
+
+        <!-- Fitur: Kamera -->
+        <section class="section section-1 reveal-section">
+          <div class="section-content">
+            <span class="section-tag">Kamera Pro</span>
+            <h2>Kamera 48MP.<br>Tangkap setiap detail.</h2>
+            <p>Sistem tiga kamera pro dengan Kamera Utama 48MP, Ultra Wide 12MP, dan Telefoto 12MP. Dilengkapi LiDAR Scanner, True Tone Flash, serta Photonic Engine untuk hasil yang menakjubkan.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Dynamic Island -->
+        <section class="section section-2 reveal-section">
+          <div class="section-content align-right">
+            <span class="section-tag">Dynamic Island</span>
+            <h2>Dynamic Island.<br>Cara baru berinteraksi.</h2>
+            <p>Desain perangkat keras dan perangkat lunak yang menyatu secara mulus. Berubah bentuk secara real-time untuk menampilkan panggilan telepon, musik, dan aktivitas lainnya.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Layar -->
+        <section class="section section-3 reveal-section">
+          <div class="section-content">
+            <span class="section-tag">Layar</span>
+            <h2>Super Retina XDR.<br>Selalu Aktif.</h2>
+            <p>Layar OLED 6,1 inci dengan ProMotion 120Hz dan Layar Selalu Aktif. Dynamic Island melebar menampilkan kontrol musik tanpa membuka aplikasi.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Konektivitas -->
+        <section class="section section-4 reveal-section">
+          <div class="section-content align-right">
+            <span class="section-tag">Konektivitas</span>
+            <h2>Terhubung mulus.<br>AirPods & Maps.</h2>
+            <p>Dynamic Island menampilkan AirPods yang terhubung secara instan, lalu beralih ke petunjuk arah Maps secara real-time. Semua informasi selalu di ujung jari Anda.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Multitasking -->
+        <section class="section section-5 reveal-section">
+          <div class="section-content">
+            <span class="section-tag">Multitasking</span>
+            <h2>Multitasking hidup.<br>Navigasi & Voice Memo.</h2>
+            <p>Navigasi tampil di Dynamic Island sambil merekam Voice Memo. Gunakan Apple Pay di Wallet tanpa meninggalkan aktivitas Anda.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Live Activities -->
+        <section class="section section-6 reveal-section">
+          <div class="section-content align-right">
+            <span class="section-tag">Live Activities</span>
+            <h2>Live Activities.<br>Dua sekaligus.</h2>
+            <p>Dynamic Island menampilkan dua aktivitas bersamaan — Lyft di sisi kiri dan perekam suara di sisi kanan. Tidak ada yang terlewat, semua terkendali.</p>
+          </div>
+        </section>
+
+        <!-- Fitur: Desain -->
+        <section class="section section-7 reveal-section">
+          <div class="section-content">
+            <span class="section-tag">Desain Premium</span>
+            <h2>Empat Warna.<br>Satu Karakter.</h2>
+            <p>Rangka baja tahan karat sekelas alat bedah, dipadukan kaca belakang matte bertekstur dan Ceramic Shield di depan. Tersedia dalam Deep Purple, Space Black, Silver, dan Gold — setiap warna punya karakter, semua tampil premium.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Bagian pilih varian & harga -->
+    <section class="config-section" id="config" aria-labelledby="config-title">
+      <div class="config-bg-orb" aria-hidden="true"></div>
+      <div class="config-header">
+        <span class="section-tag-dark">Konfigurasi</span>
+        <h2 class="config-title" id="config-title">Pilih iPhone 14 Pro<br>yang Tepat untuk Anda</h2>
+        <p class="config-desc">Sesuaikan warna dan kapasitas sesuai kebutuhan Anda</p>
+      </div>
+
+      <div class="config-container">
+        <!-- Gambar pratinjau warna -->
+        <div class="product-visual">
+          <div class="visual-wrapper">
+            <div class="visual-glow" aria-hidden="true"></div>
+            <img id="variant-image" src="gambar/Purpel.webp" alt="iPhone 14 Pro Deep Purple" loading="eager" />
+          </div>
+        </div>
+
+        <!-- Tombol pilihan -->
+        <div class="config-options">
+
+          <!-- Pilihan warna -->
+          <div class="option-group">
+            <h3>Pilih Warna</h3>
+            <div class="color-selectors" role="group" aria-label="Pilihan warna">
+              <button class="color-btn active" data-color="Deep Purple" data-img="gambar/Purpel.webp" style="background-color:#3c3545;" title="Deep Purple" aria-label="Deep Purple" aria-pressed="true"></button>
+              <button class="color-btn" data-color="Space Black" data-img="gambar/Black.webp" style="background-color:#1e1f20;" title="Space Black" aria-label="Space Black" aria-pressed="false"></button>
+              <button class="color-btn" data-color="Silver" data-img="gambar/White.webp" style="background-color:#e2e4e6;" title="Silver" aria-label="Silver" aria-pressed="false"></button>
+              <button class="color-btn" data-color="Gold" data-img="gambar/Yellow.webp" style="background-color:#f4e8ce;" title="Gold" aria-label="Gold" aria-pressed="false"></button>
+            </div>
+            <p class="selected-label">Warna dipilih: <span id="color-name">Deep Purple</span></p>
+          </div>
+
+          <!-- Pilihan kapasitas memori -->
+          <div class="option-group">
+            <h3>Pilih Kapasitas <span class="ram-badge">RAM 6GB</span></h3>
+            <div class="storage-selectors" role="group" aria-label="Pilihan kapasitas">
+              <button class="storage-btn active" id="storage-128" data-storage="128GB" data-price-ibox="Rp 19.999.000" data-price-2026="Rp 9.500.000 – Rp 10.500.000" aria-pressed="true">128 GB</button>
+              <button class="storage-btn" id="storage-256" data-storage="256GB" data-price-ibox="Rp 22.999.000" data-price-2026="Rp 10.500.000 – Rp 11.500.000" aria-pressed="false">256 GB</button>
+              <button class="storage-btn" id="storage-512" data-storage="512GB" data-price-ibox="Rp 26.999.000" data-price-2026="Rp 12.000.000 – Rp 13.500.000" aria-pressed="false">512 GB</button>
+              <button class="storage-btn" id="storage-1tb" data-storage="1TB" data-price-ibox="Rp 30.999.000" data-price-2026="Rp 13.500.000 – Rp 15.000.000" aria-pressed="false">1 TB</button>
+            </div>
+          </div>
+
+          <!-- Info harga -->
+          <div class="price-box">
+            <div class="price-row">
+              <div class="price-info">
+                <span class="price-label">Harga Rilis Resmi iBox</span>
+                <span class="price-value original" id="price-ibox">Rp 19.999.000</span>
+              </div>
+            </div>
+            <div class="price-divider" aria-hidden="true"></div>
+            <div class="price-row highlight">
+              <div class="price-info">
+                <span class="price-label">Estimasi Harga iBox 2026</span>
+                <span class="price-value" id="price-2026">Rp 9.500.000 – Rp 10.500.000</span>
+              </div>
+              <span class="price-badge">Best Value</span>
+            </div>
+            <p class="price-note">*Harga 2026 merupakan estimasi harga pasar perangkat ex-iBox resmi dalam kondisi mulus.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian rincian spesifikasi -->
+    <section class="specs-section" id="specs" aria-labelledby="specs-title">
+      <div class="specs-header">
+        <span class="section-tag-dark">Spesifikasi</span>
+        <h2 class="specs-title" id="specs-title">Spesifikasi Teknis</h2>
+        <p class="specs-desc">Dirancang untuk performa tertinggi dalam genggaman Anda</p>
+      </div>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Layar Super Retina XDR</h3>
+          <p>OLED 6,1 inci, resolusi 2556×1179 px pada 460 ppi. Dynamic Island, Always-On Display, ProMotion 120Hz, kecerahan puncak 2.000 nit.</p>
+        </div>
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3>Chip A16 Bionic</h3>
+          <p>CPU 6-core (2 performa + 4 efisiensi), GPU 5-core, Neural Engine 16-core untuk komputasi AI tingkat lanjut secara efisien.</p>
+        </div>
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+          </div>
+          <h3>Sistem Kamera Pro</h3>
+          <p>Kamera Utama 48MP (ƒ/1.78, OIS Gen-2), Ultra Wide 12MP, Telefoto 2x & 3x (ƒ/2.8, OIS). Zoom optik 3x, digital hingga 15x.</p>
+        </div>
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="16" height="11" rx="2"/><line x1="22" y1="11" x2="22" y2="14" stroke-linecap="round" stroke-width="2.5"/><path d="M6 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          </div>
+          <h3>Daya & Baterai</h3>
+          <p>Pemutaran video hingga 23 jam. Isi 50% dalam ~30 menit dengan adaptor 20W. Dukung MagSafe 15W & Qi 7,5W.</p>
+        </div>
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Bahan & Ketahanan</h3>
+          <p>Rangka baja tahan karat dengan kaca matte bertekstur & Ceramic Shield. IP68 — tahan air 6 meter selama 30 menit.</p>
+        </div>
+        <div class="spec-item">
+          <div class="spec-icon-wrap" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Keselamatan & Sensor</h3>
+          <p>Face ID via TrueDepth 12MP (ƒ/1.9), Deteksi Tabrakan, Darurat SOS, LiDAR Scanner, Barometer, Giroskop & Akselerometer high-g.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catatan kaki (Footer) -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <svg width="16" height="16" viewBox="0 0 814 1000" fill="currentColor" aria-hidden="true">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-37.5-154.9-105.6C115 672.6 65 614.7 65 510.4c0-110.7 72.6-168.5 141.4-168.5 65.5 0 106.5 44.6 161.9 44.6 53.5 0 103.5-43.3 163.9-43.3 65.9 0 130.3 47.1 174.3 125.5z"/>
+              <path d="M575.9 215.1c-26.1 29.8-69.2 53.8-113.2 53.8-5.8 0-11.7-.6-17.5-1.9-1.3-5.8-1.9-11.7-1.9-17.5 0-26.7 11.7-55.5 33.1-77.8 21.3-22.3 57.9-41.5 92.3-43.3 1.3 6.5 1.9 13 1.9 19.5 0 25.3-10.4 52.5-34.7 66.7z"/>
+            </svg>
+            <span>iPhone 14 Pro</span>
+          </div>
+          <nav class="footer-links" aria-label="Footer navigasi">
+            <a href="#features">Fitur</a>
+            <a href="#config">Harga</a>
+            <a href="#specs">Spesifikasi</a>
+          </nav>
+        </div>
+        <div class="footer-divider" aria-hidden="true"></div>
+        <div class="footer-bottom">
+          <p class="footer-copy">© 2026 Web Promosi iPhone 14 Pro. Semua harga merupakan estimasi pasar.</p>
+          <p class="footer-disclaimer">iPhone adalah merek dagang terdaftar dari Apple Inc. Website ini bukan afiliasi resmi Apple.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
